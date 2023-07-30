@@ -242,7 +242,7 @@ btn_cart.pack()
 btn_admin_panel=tkinter.Button(win,text="AdminPanel",state="disabled",command=admin_panel)
 btn_admin_panel.pack()
 
-btn_logout=tkinter.Button(win,text="Logout",command=logout)
+btn_logout=tkinter.Button(win,text="Logout",state="disabled",command=logout)
 btn_logout.pack()
 
 win.mainloop()
