@@ -34,7 +34,7 @@ def login():
 #______________________________________logout________________________________________ 
 def logout():
     global session
-    lbl_msg.configure(text="you have logged out!", fg='red')
+    lbl_msg.configure(text="you have logged out!", fg="red")
     btn_login.configure(state="active")
     btn_logout.configure(state="disabled")
     btn_shop.configure(state="disabled")
